@@ -1,0 +1,391 @@
+<!-- Made by Tomás Matos | Internship from Colégio de Gaia - Escola Católica | Reachable on tomasmatos007@gmail.com -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Básicos-->
+    <meta charset="UTF-8" />
+    <title>APPACDM — Gaia</title>
+    <meta name="author" content="APPACDM GAIA" />
+    <meta name="description" content="Uma vida a cultivar sorrisos." />
+
+    <!--Mobile Needs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Icons-->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/uploads/shortcut_icon.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/global_organized.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+
+    <header class="primaryHeader">
+      <div class="TLlogo">
+        <a href="#"
+          ><img src="assets/uploads/50anos.jpg" alt="Logótipo 50 anos"
+        /></a>
+      </div>
+
+      <div class="headerNav">
+        <ul>
+          <li><a href="index.html">Bem-vindo</a></li>
+
+          <li>
+            <a href="ajudar.html">Quero ajudar</a>
+            <ul class="dropdown">
+              <li>
+                <a href="ajudar/proposta-socio.html">Proposta de Sócio</a>
+              </li>
+              <li>
+                <a href="ajudar/voluntariado.html">Voluntariado</a>
+              </li>
+              <li>
+                <a href="ajudar/consignacao-fiscal.html">Consignação Fiscal</a>
+              </li>
+              <li>
+                <a href="ajudar/donativos.html">Donativos</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Instituição</a>
+            <ul class="dropdown">
+              <li>
+                <a href="instituicao/mensagem-presidente.html"
+                  >Mensagem do Presidente</a
+                >
+              </li>
+              <li>
+                <a href="instituicao/missao-visao-valores.html"
+                  >Missão, Visão e Valores</a
+                >
+              </li>
+              <li>
+                <a href="instituicao/orgaos-sociais.html">Orgãos Sociais</a>
+              </li>
+              <li>
+                <a href="instituicao/historia.html">História</a>
+              </li>
+              <li>
+                <a href="instituicao/recursos-humanos.html">Recursos Humanos</a>
+              </li>
+              <li>
+                <a href="instituicao/livro-reclamacoes.html"
+                  >Livro de Reclamações</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li>
+            <a href="projectos.html">Projetos</a>
+            <ul class="dropdown">
+              <li>
+                <a href="projetos/projetos-cofinanciados-pela-ue.html">
+                  Projetos Cofinanciados pela UE
+                </a>
+              </li>
+              <li>
+                <a href="projetos/divers-arte.html">
+                  Loja Online Divers'arte
+                </a>
+              </li>
+              <li>
+                <a href="projetos/gai@prende+i.html"> Gai@prende+i </a>
+              </li>
+              <li>
+                <a href="projetos/escolhe-vilhar.html"> Escolhe Vilar </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contactos.html"> Contactos</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="Full-Width">
+      <!--CONTEÚDO-->
+
+      <div id="content">
+        <!--CONTEÚDO-->
+
+        <div class="first-section"></div>
+        <div class="second-section">
+          <div class="section section_wrapper clearfix">
+            <div class="section_inner policy">
+              <div class="header_wrapper">
+                <b>Política de Privacidade</b>
+              </div>
+              <div class="column first-second-column column_image">
+                <div class="image_wrapper">
+                  <img src="assets/uploads/50anos.jpg" style="width: 300px"/>
+                </div>
+              </div>
+              <div class="column first-second-column column_text">
+                <div>
+                  <div><h4>A sua privacidade é importante para nós.</h4></div>
+                  <br />
+                  Esta Política de Privacidade descreve como recolhemos,
+                  utilizamos, armazenamos e protegemos as suas informações
+                  pessoais quando visita o nosso website.<br />
+
+                  <div class="tab-container">
+                    <button class="tab-button" onclick="toggleTab('tab1')">
+                      1. Informações que Recolhemos
+                    </button>
+                    <div id="tab1" class="tab">
+                      <h3>1. Informações que Recolhemos</h3>
+                      <p>
+                        Podemos recolher diferentes tipos de informações sobre
+                        si, incluindo:
+                      </p>
+                      <ul>
+                        <li>
+                          Informações Pessoais: Nome, endereço de e-mail, número
+                          de telefone, morada, entre outros.
+                        </li>
+                        <li>
+                          Informações Automáticas: Endereço IP, tipo de
+                          navegador, páginas visitadas.
+                        </li>
+                        <li>
+                          Informações de Terceiros: Dados associados a contas
+                          como Google, Facebook.
+                        </li>
+                      </ul>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab2')">
+                      2. Como Utilizamos as Suas Informações
+                    </button>
+                    <div id="tab2" class="tab">
+                      <h3>2. Como Utilizamos as Suas Informações</h3>
+                      <p>
+                        As informações recolhidas podem ser utilizadas para:
+                      </p>
+                      <ul>
+                        <li>Melhorar a Experiência do Utilizador.</li>
+                        <li>Comunicação: Enviar atualizações, newsletters.</li>
+                        <li>
+                          Apoio ao Cliente: Responder a questões e prestar
+                          suporte técnico.
+                        </li>
+                      </ul>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab3')">
+                      3. Partilha de Informações
+                    </button>
+                    <div id="tab3" class="tab">
+                      <h3>3. Partilha de Informações</h3>
+                      <p>
+                        Não vendemos, alugamos ou partilhamos as suas
+                        informações pessoais com terceiros, exceto nas seguintes
+                        situações:
+                      </p>
+                      <ul>
+                        <li>Prestadores de Serviços Terceirizados.</li>
+                        <li>Obrigação Legal: Divulgação por ordem judicial.</li>
+                      </ul>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab4')">
+                      4. Cookies e Tecnologias Semelhantes
+                    </button>
+                    <div id="tab4" class="tab">
+                      <h3>4. Cookies e Tecnologias Semelhantes</h3>
+                      <p>
+                        Utilizamos cookies e outras tecnologias de rastreamento
+                        para melhorar a funcionalidade do site e a sua
+                        experiência de navegação. Os cookies são pequenos
+                        ficheiros de dados armazenados no seu dispositivo que
+                        nos permitem:
+                      </p>
+                      <ul>
+                        <li>Lembrar as suas preferências.</li>
+                        <li>Analisar a utilização do site.</li>
+                        <li>Oferecer anúncios personalizados.</li>
+                        <li>
+                          desativar os cookies nas definições do seu navegador,
+                          mas isso pode afetar algumas funcionalidades do site.
+                        </li>
+                      </ul>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab5')">
+                      5. Segurança das Informações
+                    </button>
+                    <div id="tab5" class="tab">
+                      <h3>5. Segurança das Informações</h3>
+                      <p>
+                        Implementamos medidas de segurança adequadas para
+                        proteger as suas informações contra acessos não
+                        autorizados, alterações, divulgação ou destruição. No
+                        entanto, apesar dos nossos esforços, não podemos
+                        garantir a segurança absoluta dos dados transmitidos
+                        através da internet.
+                      </p>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab6')">
+                      6. Os Seus Direitos
+                    </button>
+                    <div id="tab6" class="tab">
+                      <h3>6. Os Seus Direitos</h3>
+                      <p>Tem o direito de:</p>
+                      <ul>
+                        <li>
+                          Apagar as suas informações pessoais (salvo quando
+                          temos obrigação legal de as reter).
+                        </li>
+                        <li>
+                          Retirar o consentimento para o uso das suas
+                          informações, sempre que aplicável.
+                        </li>
+                        <li>
+                          Para exercer estes direitos, contacte-nos através dos
+                          dados fornecidos abaixo.
+                        </li>
+                      </ul>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab7')">
+                      7. Alterações à Política de Privacidade
+                    </button>
+                    <div id="tab7" class="tab">
+                      <h3>7. Alterações à Política de Privacidade</h3>
+                      <p>
+                        Podemos atualizar esta Política de Privacidade
+                        periodicamente. Quaisquer alterações serão publicadas
+                        nesta página, com a data de revisão devidamente
+                        atualizada.
+                      </p>
+                    </div>
+
+                    <button class="tab-button" onclick="toggleTab('tab8')">
+                      8. Contacto
+                    </button>
+                    <div id="tab8" class="tab">
+                      <h3>8. Contacto</h3>
+                      <p>
+                        Se tiver dúvidas ou questões sobre esta Política de
+                        Privacidade, sobre a forma como tratamos os seus dados
+                        ou saber como pode aceder à gestão dos seus dados, pode
+                        contactar-nos através de:
+                      </p>
+                      <ul>
+                        <li>Email: geral@appacdm-gaia.org.pt</li>
+                        <li>
+                          Morada: Rua Madre de Deus, 227 4430-138 V.N. Gaia
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--RODAPÉ-->
+    <div class="footer">
+      <footer>
+        <div class="footerContainer">
+          <div class="back_top">
+            <a href="#">
+              <button class="back_top-btn">
+                <i class="fa-solid fa-arrow-up"></i>
+              </button>
+            </a>
+          </div>
+          <div class="socialIcons">
+            <a href="https://www.facebook.com/appacdmvngaia"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/appacdmgaia"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="footerNav">
+            <div class="gerais" style="font-size: 25px; margin: 0px">
+              <h5>Contactos Gerais</h5>
+              <h6>
+                Morada:&nbsp;<b>Rua Madre de Deus, 227 4430-138 V.N. Gaia</b>
+              </h6>
+              <h6>
+                Telefone:&nbsp;<b
+                  ><a href="tel:+351227151340"
+                    >227 151 340 (Chamada para a rede fixa nacional)</a
+                  ></b
+                >
+              </h6>
+              <h6>
+                Email:&nbsp;<b
+                  ><a href="mailto:geral@appacdm-gaia.org.pt "
+                    >geral@appacdm-gaia.org.pt</a
+                  ></b
+                >
+                <br />
+                <br />
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <p>
+            Copyright &copy;2024 APPACDM - GAIA — Desenvolvido por<span
+              class="designer"
+              >Tomás Matos</span
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!--SCRIPTS-->
+
+    <script>
+      function toggleTab(tabId) {
+        // fechar todas as tabs
+        var tabs = document.getElementsByClassName("tab");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].style.display = "none";
+        }
+
+        // mostrar a tab
+        var selectedTab = document.getElementById(tabId);
+        if (selectedTab.style.display === "block") {
+          selectedTab.style.display = "none"; // fechar se ja tiver aberta
+        } else {
+          selectedTab.style.display = "block";
+        }
+      }
+    </script>
+
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="//cdn.cookie-script.com/s/d54bfb11cd59b3992c9c8f5a1164eb8b.js"
+    ></script>
+  </body>
+</html>

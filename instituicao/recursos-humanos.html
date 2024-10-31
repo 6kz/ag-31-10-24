@@ -1,0 +1,332 @@
+<!-- Made by Tomás Matos | Internship from Colégio de Gaia - Escola Católica | Reachable on tomasmatos007@gmail.com -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Básicos-->
+    <meta charset="UTF-8" />
+    <title>APPACDM — Gaia</title>
+    <meta name="author" content="APPACDM GAIA" />
+    <meta name="description" content="Uma vida a cultivar sorrisos." />
+
+    <!--Mobile Needs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Icons-->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../assets/uploads/shortcut_icon.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Style-->
+
+    <link rel="stylesheet" href="../css/global_organized.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+
+    <header class="primaryHeader">
+      <div class="TLlogo">
+        <a href="#"
+          ><img src="../assets/uploads/50anos.jpg" alt="Logótipo 50 anos"
+        /></a>
+      </div>
+
+      <div class="headerNav">
+        <ul>
+          <li><a href="../index.html">Bem-vindo</a></li>
+
+          <li>
+            <a href="../ajudar/proposta-socio.html">Quero ajudar</a>
+            <ul class="dropdown">
+              <li>
+                <a href="../ajudar/proposta-socio.html">Proposta de Sócio</a>
+              </li>
+              <li>
+                <a href="../ajudar/voluntariado.html">Voluntariado</a>
+              </li>
+              <li>
+                <a href="../ajudar/consignacao-fiscal.html"
+                  >Consignação Fiscal</a
+                >
+              </li>
+              <li>
+                <a href="../ajudar/donativos.html">Donativos</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Instituição</a>
+            <ul class="dropdown">
+              <li>
+                <a href="mensagem-presidente.html">Mensagem do Presidente</a>
+              </li>
+              <li>
+                <a href="missao-visao-valores.html">Missão, Visão e Valores</a>
+              </li>
+              <li>
+                <a href="orgaos-sociais.html">Orgãos Sociais</a>
+              </li>
+              <li>
+                <a href="historia.html">História</a>
+              </li>
+              <li>
+                <a href="recursos-humanos.html">Recursos Humanos</a>
+              </li>
+              <li>
+                <a href="livro-reclamacoes.html">Livro de Reclamações</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="../servicos.html">Serviços</a></li>
+          <li><a href="../eventos.html">Eventos</a></li>
+          <li>
+            <a href="../projectos.html">Projetos</a>
+            <ul class="dropdown">
+              <li>
+                <a href="#"> Projetos Cofinanciados pela UE </a>
+              </li>
+              <li>
+                <a href="#"> Loja Online Divers'arte </a>
+              </li>
+              <li>
+                <a href="#"> Gai@prende+i </a>
+              </li>
+              <li>
+                <a href="#"> Escolhe Vilar </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="../contactos.html"> Contactos</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--CONTEÚDO-->
+
+    <div id="content">
+      <div class="first-section">
+        <div class="header_wrapper">
+          <b>Portal do Colaborador</b>
+        </div>
+        <div class="section section_wrapper">
+          <div class="section_inner">
+            <div class="column first-second-column column_image">
+              <div class="image_wrapper">
+                <img
+                  class="img-portalcolab"
+                  src="../assets/uploads/aae26-azul-formatura-eventos-site.png"
+                />
+              </div>
+            </div>
+            <div
+              class="column first-second-column column_text recursos-humanos"
+            >
+              <div>
+                <div>&nbsp;</div>
+                <a
+                  class="portalcolab"
+                  href="http://appacdmservidor.ddns.net:8181/default.aspx?l=1"
+                >
+                  <strong>- PORTAL DO COLABORADOR</strong>
+                </a>
+
+                <div>&nbsp;</div>
+                <strong>- RECRUTAMENTO</strong>
+
+                Conheça as nossas oportunidades de carreira, ou então envie a
+                sua candidatura espontânea para geral@appacdm-gaia.org.pt ou
+                através do formulário abaixo.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section_wrapper column_form">
+          <div id="form-section">
+            <div class="form-header">
+              <h2>CANDIDATURA ESPONTÂNEA</h2>
+            </div>
+            <div
+              id="contactWrapper"
+              style="
+                padding-top: 50px;
+                padding-bottom: 50px;
+                background-color: #f0f0f0;
+              "
+            >
+              <!--set action in forms-->
+              <form
+                class="form-horizontal"
+                method="POST"
+                action=""
+                enctype="multipart/form-data"
+              >
+                <label class="candid-espon-label">Dados</label>
+                <div class="column one-form">
+                  <input
+                    placeholder="Nome"
+                    type="text"
+                    name="NAME"
+                    size="40"
+                    aria-required="true"
+                    aria-invalid="false"
+                  />
+                </div>
+                <div class="column one-form">
+                  <textarea
+                    placeholder="Residência"
+                    name="ADRESS"
+                    id="body"
+                    style="width: 100%"
+                    rows="4"
+                    aria-invalid="false"
+                  ></textarea>
+                </div>
+                <div class="column one-second-form">
+                  <input
+                    placeholder="Código Postal"
+                    type="text"
+                    name="POSTCODE"
+                    size="40"
+                    aria-invalid="false"
+                  />
+                </div>
+                <div class="column one-second-form">
+                  <input
+                    placeholder="Email"
+                    type="email"
+                    name="EMAIL"
+                    size="40"
+                    aria-invalid="false"
+                  />
+                </div>
+                <div class="column one-second-form">
+                  <input
+                    placeholder="Telefone"
+                    type="text"
+                    name="PHONE"
+                    size="40"
+                    aria-invalid="false"
+                  />
+                </div>
+                <div class="column one-second-form">
+                  <input
+                    placeholder="Telemóvel"
+                    type="text"
+                    name="MOBILE"
+                    size="40"
+                    aria-invalid="false"
+                  />
+                </div>
+                <div class="column one-form">
+                  <textarea
+                    placeholder="Observações"
+                    name="NOTES"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <div class="column one-second-form">
+                  <input
+                    placeholder="CV"
+                    type="file"
+                    name="CV"
+                    size="40"
+                    aria-invalid="false"
+                    style="background: #ffffff; padding: 10px"
+                  />
+                </div>
+                <div class="column one-form" style="margin-top: 20px">
+                  <input type="submit" value="Submeter" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-audio">
+        <button onclick="pause(); start(); toggleIcon();" class="audio">
+          <img
+            class="img-btn-audio"
+            alt="Mute/Silenciar"
+            src="assets/uploads/mute.png"
+          />
+        </button>
+      </div>
+    </div>
+
+    <!--RODAPÉ-->
+
+    <footer id="footer">
+      <div class="footerContainer">
+        <div class="back_top">
+          <a href="#">
+            <button class="back_top-btn">
+              <i class="fa-solid fa-arrow-up"></i>
+            </button>
+          </a>
+        </div>
+        <div class="socialIcons">
+          <a href="https://www.facebook.com/appacdmvngaia"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/appacdmgaia"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="footerNav">
+          <div class="gerais" style="font-size: 25px; margin: 0px">
+            <h5>Contactos Gerais</h5>
+            <h6>
+              Morada:&nbsp;<b>Rua Madre de Deus, 227 4430-138 V.N. Gaia</b>
+            </h6>
+            <h6>
+              Telefone:&nbsp;<b
+                ><a href="tel:+351227151340"
+                  >227 151 340 (Chamada para a rede fixa nacional)</a
+                ></b
+              >
+            </h6>
+            <h6>
+              Email:&nbsp;<b
+                ><a href="mailto:geral@appacdm-gaia.org.pt "
+                  >geral@appacdm-gaia.org.pt</a
+                ></b
+              >
+              <br />
+              <br />
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>
+          Copyright &copy;2024 APPACDM - GAIA — Desenvolvido por<span
+            class="designer"
+            >Tomás Matos</span
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!--SCRIPTS-->
+
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="//cdn.cookie-script.com/s/d54bfb11cd59b3992c9c8f5a1164eb8b.js"
+    ></script>
+  </body>
+</html>
